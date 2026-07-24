@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+		<meta name="theme-color" content="#1a1a2e" />
+		<meta name="mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-title" content="Button Game" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<title>Button Game</title>
+		<link rel="icon" href="/iterative-game-app/favicon.png" />
+		<link rel="apple-touch-icon" href="/iterative-game-app/icons/icon-192.png" />
+		<link rel="manifest" href="/iterative-game-app/manifest.json" />
+		
+		<link rel="modulepreload" href="/iterative-game-app/_app/immutable/entry/start.CJt6mhTa.js">
+		<link rel="modulepreload" href="/iterative-game-app/_app/immutable/chunks/g1wbLs51.js">
+		<link rel="modulepreload" href="/iterative-game-app/_app/immutable/chunks/Cd-TmQuq.js">
+		<link rel="modulepreload" href="/iterative-game-app/_app/immutable/entry/app.BJMVkmV5.js">
+		<link rel="modulepreload" href="/iterative-game-app/_app/immutable/chunks/CB0OsXuk.js">
+		<link rel="modulepreload" href="/iterative-game-app/_app/immutable/chunks/AJWDzpLk.js">
+		<link rel="modulepreload" href="/iterative-game-app/_app/immutable/chunks/CO5sex_X.js">
+		<link rel="modulepreload" href="/iterative-game-app/_app/immutable/chunks/BsC5L7WU.js">
+		<link rel="modulepreload" href="/iterative-game-app/_app/immutable/chunks/BNXyWyr5.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+			<script>
+				{
+					__sveltekit_1ifvrlc = {
+						base: "/iterative-game-app",
+						assets: "/iterative-game-app"
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("/iterative-game-app/_app/immutable/entry/start.CJt6mhTa.js"),
+						import("/iterative-game-app/_app/immutable/entry/app.BJMVkmV5.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+
+					if ('serviceWorker' in navigator) {
+						addEventListener('load', function () {
+							navigator.serviceWorker.register('/iterative-game-app/service-worker.js');
+						});
+					}
+				}
+			</script>
+		</div>
+	</body>
+</html>
